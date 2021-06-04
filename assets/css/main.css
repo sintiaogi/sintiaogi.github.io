@@ -1,0 +1,440 @@
+@import url('../css/fonts.css');
+:root{
+    --background: #f1f3f2;
+    --bg-background : #fff;
+    --bg-text : #000;
+    --bg-hover: #2568ef;
+    --midnight: #4f7177;
+    --yellow: #fff200;
+     /*      font   */
+     --Abel: 'Abel', cursive;
+     --Anton: 'Anton', cursive;
+     --Josefin : 'Josefin', cursive;
+     --Lexend: 'Lexend', cursive;
+     --Livvic : 'Livvic', cursive;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: var(--Josefin);
+}
+
+/*---  Navigation CSS ---*/
+.navbar{
+    background-color: #d6dadd;
+}
+.navbar-brand{
+    font-family: var(--Anton);
+    font-size: 2.5em;
+    color: var(--bg-text) !important;
+}
+.nav-link{
+    font-size: 1.1em;
+    margin: 0.8em 1.5em;
+    color: var(--bg-text) !important;
+    font-family: var(--Abel);
+
+}
+.nav-link:hover{
+    color: var(--yellow) !important;
+}
+
+/*--- Content css ---*/
+.main-site{
+    justify-content: center;
+}
+
+.box-line1{
+    border-top: 0.4em solid var(--yellow);
+    border-left: 0.4em solid var(--yellow);
+    border-right: 0.4em solid var(--yellow);
+    margin-top: 6em;
+    margin-bottom: 1em;
+    padding: 2em;
+}
+
+.main-title{
+    margin-top: -3.5em;
+    text-align: center;
+    
+}
+.main-title h2{
+    margin: 0 38%;
+    background-color: white;
+    font-family: var(--Abel);
+}
+
+/*--- content samping css ---*/
+.main-content{
+    margin-top: -2.5em;
+}
+.content-side{
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+.content-side img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5em;
+}
+.content-side a{
+    text-align: left;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: var(--midnight);
+    font-family: var(--Anton);
+}
+.content-side a:hover{
+    color: var(--bg-text);
+}
+.content-side p{
+    text-align: left;
+    font-size: 1em;
+    margin-top: 0.5em;
+    color: var(--bg-text);
+    font-family: var(--Abel);
+}
+.content-side .side-content-btn{
+    padding: 0.5em 0.3em;
+    background: var(--yellow);
+    border-radius: 0.2em;
+    color: var(--bg-text);
+    font-family: var(--Livvic);
+    font-weight: 800;
+    font-size: 0.8em;
+}
+.content-side .side-content-btn:hover{
+    background: var(--midnight);
+    color: var(--bg-background);
+}
+
+/*--- content tengah css ---*/
+
+.content-center img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5em;
+}
+.content-center a{
+    text-align: center;
+    text-decoration: none;
+    color: var(--midnight);
+    font-family: var(--Anton);
+}
+.content-center a:hover{
+    color: var(--bg-text);
+}
+.content-center p{
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 0.5em;
+    color: var(--bg-text);
+    font-family: var(--Abel);
+}
+.content-center .center-content-btn{
+    padding: 0.5em 1em;
+    justify-content: center;
+    background: var(--yellow);
+    border-radius: 0.2em;
+    color: var(--bg-text);
+    font-family: var(--Livvic);
+    font-weight: 950;
+    font-size: 1em;
+}
+.content-center .center-content-btn:hover{
+    background: var(--midnight);
+    color: var(--bg-background);
+}
+
+
+/*--- post content ---*/
+.post-content{
+    margin: 1em 0;
+}
+.post-content img{
+    width:100%;
+    height:auto;
+    margin-bottom: 0.5em;
+}
+.post-content a{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: var(--Anton);
+    color: var(--midnight);
+    text-align: left;
+}
+.post-content a:hover{
+    color: var(--bg-text);
+}
+.post-content p{
+    text-align: left;
+    font-size: 1em;
+    margin-top: 0.5em;
+    color: var(--bg-text);
+    font-family: var(--Abel);
+}
+.post-content .author{
+    float: left;
+    margin: 1em 0.5em;
+    font-size: 1em;
+    font-family: var(--Abel);
+    
+}
+.post-content .date{
+    float: right;
+    margin: 1em 0.5em;
+    font-size: 1em;
+    font-family: var(--Abel);
+    font-style: italic;
+}
+.pagination{
+    display: inline-block;
+    margin: 4em 0;
+}
+.pagination .pages{
+    background: var(--yellow);
+}
+.pagination .pages:hover{
+    background-color: var(--midnight);
+}
+.pagination a{
+    padding: .6em .9em;
+    border-radius: 2em;
+    margin: 0 .3em;
+    font-family: var(--Lexend);
+    color: var(--bg-text);
+}
+.pagination a:hover{
+    color: var(--bg-background);
+}
+
+
+
+/*--- new-content css---*/
+.new{
+    background-color: var(--background);
+    margin-top: 3em;
+    padding: 1.5em;
+}
+.latest-title{
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+.latest-title h3{
+    font-size: 1.5em;
+    font-weight: 800;
+    color: var(--bg-text);
+}
+.latest-title hr{
+    border: 0.2em solid var(--yellow);
+    margin: 0.8em 0;
+}
+.new .new-content{
+    margin: 2em 1em;
+}
+.new .new-content img{
+    width:100%;
+    height: auto;
+}
+.new .new-content .title{
+    margin-top: -6em;
+    padding: 1em 1em;
+    background: #262626;
+    position: relative;
+    z-index: 2;
+    opacity: 80%;
+}
+.new .new-content .title a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+    z-index: 1;
+    font-weight: 400;
+    font-family: var(--Anton);
+}
+.new .new-content .title a:hover{
+    color: var(--yellow);
+}
+.new .new-content .new-side-content{
+    margin-bottom: 1em;
+}
+.new .new-content .new-side-content img{
+    width:100%;
+    height: auto;
+}
+.new .new-content .new-side-content .side-title{
+    background: var(--midnight);
+    padding: 0.5em 0.5em;
+}
+.new .new-content .new-side-content .side-title a{
+    text-decoration: none;
+    color: var(--bg-background);
+    font-size: 1.2em;
+    font-weight: 300;
+    font-family: var(--Anton);
+
+}
+
+
+/*---- halaman Post.html css ----*/
+.main-post{
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+.main-post img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2em;
+}
+.main-post a{
+    text-decoration: none;
+    text-align: left;
+    font-size: 4em;
+    color: var(--midnight);
+    font-family: var(--Anton);
+}
+.main-post p{
+    font-size: 1.2em;
+    font-family: var(--Abel);
+    color: var(--bg-text);
+    text-align: left;
+    margin-top: 1em;
+}
+
+/*--- botom-post css ---*/
+
+.text-center{
+    background-color: #4f7177;
+    padding: 5em 2em;
+    height: 40vh;
+}
+.text-center:hover{
+    background-color:#53686e;
+}
+.text-side{
+    background-color:#5b8188;
+    padding: 5em 2em;
+    height: 40vh;
+}
+.text-side:hover{
+    background-color: #53686e;
+}
+.botom-post a{
+    text-align: center;
+    color: var(--bg-background);
+    font-family: var(--Anton);
+    opacity: 5em;
+    text-decoration: none;
+
+}
+
+
+
+
+/*---- halaman Post css ----*/
+
+
+/*--- footer css ---*/
+.footer{
+    background-color: var(--background);
+    padding: 2em 1em;
+    
+}
+
+.footer h2{
+    font-size: 1.5rem;
+    font-family: var(--Anton);
+    color: var(--midnight);
+    text-align: left;
+}
+.footer p{
+    font-size: 1em;
+    font-family: var(--Lexend);
+    color: var(--bg-text);
+    text-align: left;
+    margin-top: 1em;
+}
+.footer .form-element{
+    border: none;
+    background: transparent;
+    color: white;
+    font-family: var(--Josefin);
+    font-size: 1rem;
+    margin-bottom: 1em;
+}
+.footer .footer-menu{
+    margin: 1em 0;
+}
+.footer .follow i{
+    margin: 0 1em;
+    color: var(--bg-text);
+}
+.footer .follow i:hover{
+    color: var(--midnight);
+
+}
+.footer .form-element i{
+    padding: 0.7em;
+    background:var(--midnight);
+    margin-left: 1em;
+}
+.footer .form-element i:hover{
+    background-color: var(--bg-text);
+}
+
+@media only screen and (min-width: 960px){
+    .box-line2{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 960px){
+    .box-line1{
+        display: none;
+    }
+    .box-line2{
+        margin-top: 2em;
+    }
+    .one-side{
+        display:none;
+    }
+    .main-content{
+        margin: 1em 0;
+    }
+    .new-side-content{
+        margin:1em 1em;
+    }
+    .text-center{
+        display: none;
+    }
+
+}
+
+
+
+/*--- media query ---*/
+@media only screen and (max-width: 767px){
+    .box-line1{
+        display: none;
+    }
+    .box-line2{
+        margin-top: 2em;
+    }
+    .content-side{
+        margin: 1em 1em;
+    }
+    .one-center{
+        display:none;
+    }
+    .main-content{
+        margin: 1em 0;
+    }
+    .new-center-content{
+        display: none;
+    }
+    
+    
+
+   
+}
