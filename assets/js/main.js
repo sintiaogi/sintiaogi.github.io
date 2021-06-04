@@ -3,7 +3,7 @@ $(document).ready(function () {
     //AOS library
     AOS.init();
 
-    var url = "https://cors-anywhere.herokuapp.com/http://newsapi.org/v2/top-headlines?country=id&category=technology&apiKey=a2c7dc63403f47e49535eea916ed17ca"
+    var url = "https://cors-anywhere.herokuapp.com/http://newsapi.org/v2/top-headlines?country=id&category=technology&apiKey=4bae6179de334f5b95141f8920ab93a2"
     var latResponse = ''
     var datResponse = ''
     var topRightResponse = ''
