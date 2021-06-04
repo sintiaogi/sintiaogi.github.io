@@ -14,7 +14,7 @@ Pada apilikasi ini saya menggunakan Api developer dari news-api.org namun untuk 
 - [J-Query v3.4.1](https://jquery.com/).
 
 # Installasi #
-- Clone repository project AKAKOM NEWS ke folder kalian dengan menggunakan 'git clone'
+- Clone repository project sintiaogi.github.io ke folder kalian dengan menggunakan 'git clone'
 
 
 
